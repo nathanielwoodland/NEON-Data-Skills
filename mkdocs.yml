@@ -17,13 +17,11 @@ theme:
     primary: custom
     accent: custom
   features:
-    - navigation.tabs
-    - navigation.sections
     - navigation.top
+    - navigation.instant
     - search.suggest
     - search.highlight
     - content.code.copy
-    - toc.follow
 
 extra_css:
   - stylesheets/extra.css

@@ -1,41 +1,33 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # NEON Data Tutorials
 
-Hands-on tutorials for working with [NEON](https://www.neonscience.org) ecological data using R and Python.
+Learn to work with NEON ecological data using R and Python. Tutorials cover remote sensing, biodiversity, eddy covariance, and more — sourced directly from [NEON's open GitHub repository](https://github.com/NEONScience/NEON-Data-Skills).
 
-## Browse by Topic
+Use the **search bar above** to find tutorials by topic, data product, or programming language, or browse by category below.
 
-<div class="grid cards" markdown>
+---
 
--   **Remote Sensing**
+**Remote Sensing**
 
-    Work with LiDAR point clouds, rasters, and airborne observing platform (AOP) data products.
+- [The Basics of LiDAR (R)](R/AOP/Lidar/intro-to-lidar/basics-of-lidar/lidar-basics.md)
+- [LiDAR Rasters — DSM, DTM & CHM (R)](R/AOP/Lidar/intro-to-lidar/dsm-dtm-chm/lidar-rasters-dsm-dtm-chm.md)
+- [Intro to Discrete LiDAR Point Clouds (Python)](Python/AOP/Lidar/intro-lidar/intro_point_clouds_py/intro_discrete_point_clouds.md)
 
-    [Explore →](R/AOP/Lidar/intro-to-lidar/basics-of-lidar/lidar-basics.md)
+**Biodiversity**
 
--   **Biodiversity**
+- [Small Mammal Data (R)](R/biodiversity/small-mammals/MAM_Tutorial_RMD.md)
+- [Aquatic Macroinvertebrates (R)](R/biodiversity/aquatic-biodiversity/01_working_with_NEON_macroinverts/01_working_with_NEON_macroinverts.md)
 
-    Analyze NEON biodiversity data including small mammals and aquatic macroinvertebrates.
+**Eddy Covariance**
 
-    [Explore →](R/biodiversity/small-mammals/MAM_Tutorial_RMD.md)
+- [Diel Cycle of Flux (R)](R/eddy-covariance/diel-cycle-flux/flux-diel-cycle.md)
+- [Flux Footprint & NDVI (R)](R/eddy-covariance/footprint-NDVI/flux-footprint-NDVI.md)
 
--   **Eddy Covariance**
+**NEON API**
 
-    Work with flux tower data to understand carbon and energy exchange.
-
-    [Explore →](R/eddy-covariance/diel-cycle-flux/flux-diel-cycle.md)
-
--   **NEON API**
-
-    Access NEON data programmatically using the NEON Data API.
-
-    [Explore →](Python/NEON-API-python/intro_requests_py/neon_api_intro_requests_py.md)
-
-</div>
-
-## About These Tutorials
-
-These tutorials are sourced directly from the [NEON-Data-Skills GitHub repository](https://github.com/NEONScience/NEON-Data-Skills). Every page has an **Edit** link that takes you directly to the source file on GitHub.
-
-**Languages covered:** R · Python
-
-[Visit NEON Science →](https://www.neonscience.org){ .md-button .md-button--primary }
+- [Intro to the NEON API (Python)](Python/NEON-API-python/intro_requests_py/neon_api_intro_requests_py.md)
