@@ -1,0 +1,13 @@
+[data-md-color-scheme="default"] {
+  --md-primary-fg-color:        #0073CF;
+  --md-primary-fg-color--light: #0092E2;
+  --md-primary-fg-color--dark:  #002C77;
+  --md-accent-fg-color:         #fdc400;
+  --md-accent-fg-color--transparent: #fdc40020;
+}
+
+/* Use Inter font to match the main NEON site */
+:root {
+  --md-text-font: "Inter", sans-serif;
+  --md-code-font: "Roboto Mono", monospace;
+}
