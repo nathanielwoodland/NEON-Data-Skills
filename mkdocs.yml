@@ -17,7 +17,7 @@ theme:
     primary: custom
     accent: custom
   features:
-    - navigation.expand
+    - navigation.indexes
     - navigation.top
     - navigation.instant
     - search.suggest
@@ -29,5 +29,8 @@ extra_css:
 
 plugins:
   - search
+  - gen-files:
+      scripts:
+        - gen_indexes.py
 
 
